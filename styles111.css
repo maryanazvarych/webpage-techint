@@ -1,0 +1,420 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding:0px;
+	margin:0px;
+	overflow-x:hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:900;
+
+}
+
+p{
+	line-height:1.6em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	background: rgba(71,62,95,1);
+	background: -moz-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,62,95,1)), color-stop(100%, rgba(42,34,64,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: linear-gradient(135deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2a2240', GradientType=1 );
+	padding-top: 60px;
+	padding-bottom: 200px;
+	color: #fff;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer{
+	margin-top:176px;
+	width:490px;
+}
+
+.title{
+	font-size:36px;
+}
+
+.title span{
+	color:#48ed8e;
+}
+
+.intro{
+	margin-top:30px;
+	margin-bottom:37px;
+	width:380px;
+}
+
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	background:#ed9619 left top;
+	color:#fff;
+	border-radius:100px;
+	display:block;
+	width: 200px;
+	padding:19px 0;
+	text-align:center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.buttons{
+	display: flex;
+	margin-top:10px;
+}
+
+.desktop{
+	margin-top:72px;
+}
+
+.btn:hover{
+	background:#d9860e;
+}
+
+.section-title{
+	font-size:30px;
+}
+
+.learn{
+	padding-top:140px;
+	padding-bottom:148px;
+}
+
+.skills{
+	display: flex;
+	justify-content: space-between;
+	margin-top:80px;
+}
+
+.skill{
+	width:350px;
+	height: 100%;
+	background: url('icon1.jpg') no-repeat left top;
+	padding-left:100px;
+}
+
+.skill-title{
+	font-size:18px;
+}
+
+.skill-text{
+	margin-top:7px;
+}
+
+.skill-free{
+	width:400px;
+	background: url('icon2.jpg') no-repeat left top;
+}
+
+.skill-change{
+	background: url('icon3.jpg') no-repeat left top;
+}
+
+.reviews{
+	background:rgb(227, 223, 240);
+	padding-top:150px;
+}
+
+.mail{
+	background:#efecf4;
+	padding-top:150px;
+	padding-bottom:150px;
+}
+
+.form{
+	margin-top:40px;
+}
+
+.form input{
+	width:35%;
+	border:1px solid #bfb8d1;
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius:100px;
+	height: 60px;
+	padding-left:38px;
+}
+
+.testInput {
+	position: relative;
+}
+
+.btn-form{
+	border: 10px;
+	cursor:pointer;
+	display:inline;
+	margin-left:11px;
+}
+
+#test{
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+#test H1{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+	padding:33px 0;
+	background:#201b2d;
+}
+
+.credits{
+	color:#d4cee3;
+	font-size:14px;
+	margin:0;
+}
+
+.red{
+	color:red;
+}
+
+.animate__animated{
+	opacity:0;
+}
+
+.container2{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.veiw-box{
+    width: 900px;
+    height: 600px;
+    /* border-radius: 220px; */
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#testimonials{
+    display: flex;
+    transition: 0.5s;
+}
+
+.user{
+	height: 300px;
+    width: 250px;
+    text-align: center;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background: rgba(71,62,95,1);
+    border-radius: 30px;
+    box-shadow: 0 10px 20px -5px #00000061;
+    position: relative;
+}
+
+.space{
+    margin: 0 60px;
+}
+
+.user img{
+    width: 90px;
+    border-radius: 50%;
+    border: 5px solid #24053f;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.user p{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 55px 0 20px;
+}
+
+.user h3{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.controls{
+    display: flex;
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.controls span{
+    width: 15px;
+    height: 15px;
+    background: #321764;
+    border-radius: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.active{
+    width: 80px !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width:992px) {
+		.container {
+			width:720px;
+		}
+
+		.wrapper {
+			flex-direction: column;
+		}
+
+		.offer {
+			width:100%;
+		}
+
+		.intro {
+			width:100%;
+		}
+
+		.desktop{
+			display:block;
+			width:549px;
+			margin:72px auto 0;
+		}
+
+		.skills{
+			flex-direction:column;
+		}
+
+		.skill{
+			width:auto;
+			margin-bottom:30px;
+		}
+
+		.veiw-box{
+			width: 700px;
+		}
+
+		.space{
+			margin: 0 40px;
+		}
+
+		.user{
+			height: 250px;
+			width: 205px;
+		}
+
+		.user p{
+			font-size: 12px;
+			line-height: 15px;
+			margin: 55px 0 10px 0;
+		}
+		
+		.user h3{
+			font-size: 16px;
+		}
+}
+
+@media screen and (max-width:768px) {
+		.container{
+			width:540px;
+		}
+
+		.desktop{
+			width:100%;
+		}
+
+		.input{
+			width:100%;
+		}
+
+		.btn{
+			width:100%;
+			margin-left:0;
+			margin-top:15px;
+		}
+
+		.veiw-box{
+			width: 620px;
+		}
+
+		.space{
+			margin: 0 30px;
+		}
+
+		.user{
+			height: 200px;
+			width: 185px;
+		}
+
+		.user img{
+			width: 60px;
+		}
+
+		.user p{
+			font-size: 10px;
+			line-height: 15px;
+			margin: 20px 0 10px 0;
+		}
+		
+		.user h3{
+			font-size: 12px;
+		}
+}
+
+@media screen and (max-width:576px) {
+		.container{
+			width:90%;
+		}
+
+		.veiw-box{
+			width: 220px;
+		}
+
+		.user{
+			height: 250px;
+			width: 220px;
+		}
+
+		.user img{
+			width: 70px;
+		}
+
+		.user p{
+			font-size: 13px;
+			line-height: 20px;
+			margin: 30px 0 10px 0;
+		}
+		
+		.user h3{
+			font-size: 17px;
+		}
+}
