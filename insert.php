@@ -9,7 +9,7 @@ if(isset($_POST['submit']))
    VALUES ('".$imie."','".$email."','".$mobile."')";
    if (mysqli_query($conn, $sql)) {
       echo "<script>alert('Dziękujęmy, twoje dane zostały zapisane!');</script>";
-      echo "<script type='text/javascript' language='Javascript'>window.open('aplikacja.html');</script>";
+      echo "<script type='text/javascript' language='Javascript'>window.open('index.html');</script>";
    } else {
       echo "Error: " . $sql . ":-" . mysqli_error($conn);
    }
