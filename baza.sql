@@ -7,7 +7,7 @@ CREATE TABLE baza_klientow.users(
  mobile varchar(9),
  primary key (id)
 );
-INSERT INTO baza_klientow.wyniki(
+INSERT INTO baza_klientow.users(
  imie
  , email
  , mobile
